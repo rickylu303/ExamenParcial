@@ -2,7 +2,7 @@
 
 namespace ExamenPrimerParcial
 {
-    public class Startup
+    public class Libro
     {
         public int IdLibro { get; set; }
 

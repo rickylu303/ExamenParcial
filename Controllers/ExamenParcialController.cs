@@ -4,7 +4,7 @@ namespace ExamenPrimerParcial.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class ExamenParcial : ControllerBase
+    public class ExamenParcialController : ControllerBase
     {
         private static readonly string[] Titles = new[]
         {
@@ -16,18 +16,18 @@ namespace ExamenPrimerParcial.Controllers
             "Some Description", "Some Description", "Some Description", "Some Description", "Some Description", "Some Description"
         };
 
-        private readonly ILogger<ExamenParcial> _logger;
+        private readonly ILogger<ExamenParcialController> _logger;
 
-        public ExamenParcial(ILogger<ExamenParcial> logger)
+        public ExamenParcialController(ILogger<ExamenParcialController> logger)
         {
             _logger = logger;
         }
 
         [HttpGet(Name = "GetStartup")]
 
-        public IEnumerable<Startup> Get()
+        public IEnumerable<Libro> Get()
         {
-            return Enumerable.Range(1, 5).Select(index => new Startup
+            return Enumerable.Range(1, 5).Select(index => new Libro
             {
                 IdLibro = Random.Shared.Next(1, 6),
                 Titulo = Titles[Random.Shared.Next(Titles.Length)],

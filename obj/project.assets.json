@@ -9991,23 +9991,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JADPA-11\\.nuget\\packages\\": {},
+    "C:\\Users\\JADPA-24\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JADPA-11\\source\\repos\\ExamenPrimerParcial\\ExamenPrimerParcial.csproj",
+      "projectUniqueName": "C:\\Users\\JADPA-24\\Desktop\\Repositorio\\ExamenPrimerParcial\\ExamenPrimerParcial.csproj",
       "projectName": "ExamenPrimerParcial",
-      "projectPath": "C:\\Users\\JADPA-11\\source\\repos\\ExamenPrimerParcial\\ExamenPrimerParcial.csproj",
-      "packagesPath": "C:\\Users\\JADPA-11\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JADPA-11\\source\\repos\\ExamenPrimerParcial\\obj\\",
+      "projectPath": "C:\\Users\\JADPA-24\\Desktop\\Repositorio\\ExamenPrimerParcial\\ExamenPrimerParcial.csproj",
+      "packagesPath": "C:\\Users\\JADPA-24\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JADPA-24\\Desktop\\Repositorio\\ExamenPrimerParcial\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\JADPA-11\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JADPA-24\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
